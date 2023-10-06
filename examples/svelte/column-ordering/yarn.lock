@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@faker-js/faker@^6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-6.3.1.tgz#1ae963dd40405450a2945408cba553e1afa3e0fb"
+  integrity sha512-8YXBE2ZcU/pImVOHX7MWrSR/X5up7t6rPWZlk34RwZEcdr3ua6X+32pSd6XuOQRN+vbuvYNfA6iey8NbrjuMFQ==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -59,17 +64,17 @@
     magic-string "^0.26.1"
     svelte-hmr "^0.14.11"
 
-"@tanstack/svelte-table@^8.0.0-alpha.67":
-  version "8.0.0-alpha.67"
-  resolved "https://registry.yarnpkg.com/@tanstack/svelte-table/-/svelte-table-8.0.0-alpha.67.tgz#a322b43e0ec658f3daa59542b27aefe103f45935"
-  integrity sha512-2o8PsIPk6ZsooTnQnEpkP7CsDqEnPaQ7g1cgDzBDVZc6PdA0ikKiIyXXp1L1vH7+rMg2ml1OFk9wAR0jyVv3Cg==
+"@tanstack/svelte-table@^8.0.0-alpha.87":
+  version "8.10.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/svelte-table/-/svelte-table-8.10.4.tgz#81ad2b0dc10788a1a0eee4a254cbf16de84bf5a4"
+  integrity sha512-jpYbgw9hslvkpFUfXwPruOnaVbLxkIa+tssysm5OwFC3YmUntV5TapNdGeinMhIXq9Dvih3ayQvjt0IAq8cEtw==
   dependencies:
-    "@tanstack/table-core" "8.0.0-alpha.67"
+    "@tanstack/table-core" "8.10.4"
 
-"@tanstack/table-core@8.0.0-alpha.67":
-  version "8.0.0-alpha.67"
-  resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.0.0-alpha.67.tgz#b910bc4a3c03ffbcb8089c5f28de5943c83a466b"
-  integrity sha512-CkZGpfrP8zS3os6XHJ0nhr8vNnTdWNVm6lFlJ03knAY1Fl6NqGlg+nLbOWYm7zokPMDgEHCVoeMMKJI5UWB0+w==
+"@tanstack/table-core@8.10.4":
+  version "8.10.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.10.4.tgz#a983665c4a8680d346dc70b7f3f4f75b228e9883"
+  integrity sha512-1eJu8hY8U+bM/dkn+ldr/KtDqjcj3Wmn8u3n6rZsrb/wd88k8qmGTFcc+BA/fojGTqCRX1gKc8zMzuk2nauBEA==
 
 "@tsconfig/svelte@^2.0.1":
   version "2.0.1"
@@ -503,10 +508,10 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-nanoid@^3.3.3:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
-  integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
+nanoid@^3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
+  integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
@@ -548,11 +553,11 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.3.1:
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
 postcss@^8.4.13:
-  version "8.4.13"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.13.tgz#7c87bc268e79f7f86524235821dfdf9f73e5d575"
-  integrity sha512-jtL6eTBrza5MPzy8oJLFuUscHDXTV5KcLlqAWHl5q5WYRfnNRGSmOZmOZ1T6Gy7A99mOZfqungmZMpMmCVJ8ZA==
+  version "8.4.31"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d"
+  integrity sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==
   dependencies:
-    nanoid "^3.3.3"
+    nanoid "^3.3.6"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
