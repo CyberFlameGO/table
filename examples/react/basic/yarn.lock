@@ -286,17 +286,17 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@tanstack/react-table@8.0.0-alpha.37":
-  version "8.0.0-alpha.37"
-  resolved "https://registry.npmjs.org/@tanstack/react-table/-/react-table-8.0.0-alpha.37.tgz#491a6d0641fa83341405885675fa3327371405bf"
-  integrity sha512-44hkn1qdIVGQp5jLQWPRAjCMkNYzhv+v9SCQbIpqsRDZgxPaqGVSZY07D2rIIv7ThAswLzmJL8jIW+SEc+CFfQ==
+"@tanstack/react-table@8.0.0-alpha.88":
+  version "8.0.0-alpha.88"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-table/-/react-table-8.0.0-alpha.88.tgz#25bc4438674583ef5e170fd0403f02e94f12710e"
+  integrity sha512-GN5SKwc2lKeKbmMPWvwjdn7/hkq2jF0uUyuIJM/4ak01AqodEmNUSSqa8iROuOCtuxUYft9XTLI7zip8jMt3Vg==
   dependencies:
-    "@tanstack/table-core" "8.0.0-alpha.37"
+    "@tanstack/table-core" "8.0.0-alpha.88"
 
-"@tanstack/table-core@8.0.0-alpha.37":
-  version "8.0.0-alpha.37"
-  resolved "https://registry.npmjs.org/@tanstack/table-core/-/table-core-8.0.0-alpha.37.tgz#0a84c7c489caaac2c6716183c8f8291b99d3039c"
-  integrity sha512-8PLNs8R35MvlQgMWlBO8feab1n3CRZnbuU0LRfnsI3OOrlx8/7NJsjfdnkRnfsqHJYPJ2fL0Ij5yD3D5LXwAiw==
+"@tanstack/table-core@8.0.0-alpha.88":
+  version "8.0.0-alpha.88"
+  resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.0.0-alpha.88.tgz#b7e252362684e5d7dd72ff3c265c8a6d8aae5277"
+  integrity sha512-x5T7EgUbxwb+KBrmIw3g00MiSFHB+ZqWPFEwIOHuSOnm9dhNI8G6HIXdGv7RO1fQDsIUGzH44GH9uTAm3+NuTw==
 
 "@types/estree@0.0.39":
   version "0.0.39"
@@ -606,10 +606,10 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-nanoid@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.1.tgz#6347a18cac88af88f58af0b3594b723d5e99bb35"
-  integrity sha512-n6Vs/3KGyxPQd6uO0eH4Bv0ojGSUvuLlIHtC3Y0kEO23YRge8H9x1GCzLn28YX0H66pMkxuaeESFq4tKISKwdw==
+nanoid@^3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
+  integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
 node-releases@^2.0.1:
   version "2.0.1"
@@ -637,11 +637,11 @@ picomatch@^2.2.2:
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
 
 postcss@^8.4.6:
-  version "8.4.12"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.12.tgz#1e7de78733b28970fa4743f7da6f3763648b1905"
-  integrity sha512-lg6eITwYe9v6Hr5CncVbK70SoioNQIq81nsaG86ev5hAidQvmOeETBqs7jm43K2F5/Ley3ytDtriImV6TpNiSg==
+  version "8.4.31"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d"
+  integrity sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==
   dependencies:
-    nanoid "^3.3.1"
+    nanoid "^3.3.6"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
